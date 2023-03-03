@@ -1,11 +1,11 @@
 {
   "name": "@woodenfish/vscode-icon-map-seti",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "build/index.js",
   "scripts": {
     "build": "node ./scripts/build.js"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/parser": "^7.21.2",
     "@babel/traverse": "^7.21.2",
     "@babel/types": "^7.21.2",
@@ -13,5 +13,8 @@
   },
   "files": [
     "/build/*"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
